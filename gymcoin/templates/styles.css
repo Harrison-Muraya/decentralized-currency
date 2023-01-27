@@ -1,9 +1,4 @@
-{% extends "layout.html" %}
-{% block content %}
-
-	<h1>Purchase Page</h1>
-
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Bank Link</title>
@@ -13,15 +8,13 @@
     <form>
       <label for="banks">Select your bank:</label>
       <select id="banks" name="banks">
-        <option value="bank1">Mpesa</option>
-        <option value="bank2">Airtel money </option>
-        <option value="bank3">Equity</option>
-        <option value="bank4">KCB</option>
+        <option value="bank1">Bank 1</option>
+        <option value="bank2">Bank 2</option>
+        <option value="bank3">Bank 3</option>
+        <option value="bank4">Bank 4</option>
       </select>
       <input type="submit" value="Submit">
     </form>
     <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
-
-{% endblock content %}
